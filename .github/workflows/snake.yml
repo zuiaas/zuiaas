@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Carregando sua cobrona...
 
 on:
   schedule:
@@ -9,6 +9,10 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      # ✅ Checkout primeiro!
+      - uses: actions/checkout@v4
+
+      # ✅ Depois roda a action que gera os arquivos
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -17,8 +21,7 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - uses: actions/checkout@v4
-
+      # ✅ Por fim, faz o push para o branch `output`
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
