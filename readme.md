@@ -15,3 +15,9 @@
 <img width='25px' src='https://camo.githubusercontent.com/99e1db04943c0369ac07027424b67b79c5905d0356a01f0c92c5f41f7a7b1bc1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f7068702f7068702d6f726967696e616c2e737667'>
 
 <img width='25px' src='https://camo.githubusercontent.com/7654611cc0c150086ff9327653d5d31ba93e71411ca0d4b98b1e1918631d2b05/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f707974686f6e2f707974686f6e2d6f726967696e616c2e737667'>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zuiaas/zuiaas/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zuiaas/zuiaas/output/github-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/zuiaas/zuiaas/output/github-snake.svg" />
+</picture>
