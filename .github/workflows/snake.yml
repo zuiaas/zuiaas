@@ -26,10 +26,16 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          mkdir ../temp_snake_files
+          mv dist/* ../temp_snake_files/
+          
           git switch --orphan output
           git reset --hard
-          mv dist/* ./
-          rm -rf dist
+          
+          mv ../temp_snake_files/* ./
+          rm -rf ../temp_snake_files dist
+          
           git add .
           git commit -m "update contribution snake"
           git push origin output --force
