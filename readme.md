@@ -1,23 +1,25 @@
-<h1>@zuiaas</h1>
+<h1 align="center">👋 Olá, eu sou o @zuiaas</h1>
 
-<h2>Tecnologias</h2>
+---
 
-<img width='25px' src='https://camo.githubusercontent.com/e6fea164cfe9373591d8b46fd2abd05c3d74f3f400adf9b5946a47fc3eac4e13/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f72656163742f72656163742d6f726967696e616c2e737667'>
+## 🚀 Tecnologias usadas:
 
-<img width='25px' src='https://camo.githubusercontent.com/abba501b95cfaf3f09d6547feb90ee82e26e92e273d23a057bd9d5a3e1e29b1c/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f7461696c77696e646373732f7461696c77696e646373732d6f726967696e616c2e737667'>
+<p align="left">
+  <img width="30px" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+  <img width="30px" alt="Tailwind" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" />
+  <img width="30px" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+  <img width="30px" alt="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+  <img width="30px" alt="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+  <img width="30px" alt="PHP" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+  <img width="30px" alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+</p>
 
-<img width='25px' src='https://camo.githubusercontent.com/9e8b3af8a098a645ed25b96b0cf1912032b0bd7bb20b843213b8b5325ee75d24/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f6a6176617363726970742f6a6176617363726970742d6f726967696e616c2e737667'>
+---
 
-<img width='25px' src='https://camo.githubusercontent.com/ebe0d1c7160f3845c251ae204ba90b58c8106a0a0e31abc61405c7359e00ca38/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f68746d6c352f68746d6c352d6f726967696e616c2e737667'>
-
-<img width='25px' src='https://camo.githubusercontent.com/693dc250d1c982bee56e759187ec3612558051fc57b8ea31146d6138871357aa/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f637373332f637373332d6f726967696e616c2e737667'>
-
-<img width='25px' src='https://camo.githubusercontent.com/99e1db04943c0369ac07027424b67b79c5905d0356a01f0c92c5f41f7a7b1bc1/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f7068702f7068702d6f726967696e616c2e737667'>
-
-<img width='25px' src='https://camo.githubusercontent.com/7654611cc0c150086ff9327653d5d31ba93e71411ca0d4b98b1e1918631d2b05/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f707974686f6e2f707974686f6e2d6f726967696e616c2e737667'>
+## 🐍 Meus commits nos últimos dias
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zuiaas/zuiaas/output/github-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zuiaas/zuiaas/output/github-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/zuiaas/zuiaas/output/github-snake.svg" />
+  <img alt="Animação da cobra comendo meus commits" src="https://raw.githubusercontent.com/zuiaas/zuiaas/output/github-snake.svg" />
 </picture>
