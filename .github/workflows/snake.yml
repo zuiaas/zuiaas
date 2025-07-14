@@ -9,14 +9,11 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      # 1. Clona o repositório
       - uses: actions/checkout@v4
 
-      # 2. Limpa a pasta dist (evita erro de permissão)
       - name: Clean dist folder
         run: rm -rf dist
 
-      # 3. Gera os arquivos da cobrinha
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -25,11 +22,17 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      # 4. Envia para o branch output
-      - name: Push to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit changes
+        run: |
+          git add dist
+          git commit -m "Update snake images" || echo "No changes to commit"
+
+      - name: Push changes
+        run: git push origin HEAD:output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
