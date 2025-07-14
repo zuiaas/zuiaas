@@ -28,13 +28,13 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           mkdir ../temp_snake_files
-          cp -r dist/* ../temp_snake_files/
+          sudo cp -r dist/* ../temp_snake_files/
 
           git switch --orphan output
           git reset --hard
 
-          cp -r ../temp_snake_files/* ./
-          rm -rf ../temp_snake_files dist
+          sudo cp -r ../temp_snake_files/* ./
+          sudo rm -rf ../temp_snake_files dist
 
           git add .
           git commit -m "update contribution snake"
