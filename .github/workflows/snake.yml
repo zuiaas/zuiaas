@@ -1,4 +1,4 @@
-name: Gerando sua cobrona...
+name: Generate Snake Animation
 
 on:
   schedule:
@@ -22,17 +22,16 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      - name: Configure git
+      - name: Commit and push to output branch
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Commit changes
-        run: |
-          git add dist
-          git commit -m "Update snake images" || echo "No changes to commit"
-
-      - name: Push changes
-        run: git push origin HEAD:output --force
+          git switch --orphan output
+          git reset --hard
+          mv dist/* ./
+          rm -rf dist
+          git add .
+          git commit -m "update contribution snake"
+          git push origin output --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
