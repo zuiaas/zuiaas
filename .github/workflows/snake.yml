@@ -1,4 +1,4 @@
-name: Carregando sua cobrona...
+name: Gerando sua cobrona...
 
 on:
   schedule:
@@ -9,10 +9,14 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      # ✅ Checkout primeiro!
+      # 1. Clona o repositório
       - uses: actions/checkout@v4
 
-      # ✅ Depois roda a action que gera os arquivos
+      # 2. Limpa a pasta dist (evita erro de permissão)
+      - name: Clean dist folder
+        run: rm -rf dist
+
+      # 3. Gera os arquivos da cobrinha
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
@@ -21,7 +25,7 @@ jobs:
             dist/github-snake-dark.svg?palette=github-dark
             dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
 
-      # ✅ Por fim, faz o push para o branch `output`
+      # 4. Envia para o branch output
       - name: Push to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
