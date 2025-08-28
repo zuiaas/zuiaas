@@ -1,4 +1,4 @@
-<h1 align="center">@zuiaas</h1>
+<h1 align="center" border="none">👋 Hi, my name is Josué (feat. Cake)</h1>
 
 <div align="center">
   <picture>
@@ -8,20 +8,7 @@
   </picture>
 </div>
 
-<br>
-
-> [!NOTE]
-> 🚀 Tecnologias Usadas<br>
-> Algumas podem estar em aprendizado...
-
-<br>
-
-<div align="center">
-    <code><img align="center" height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" /></code>&nbsp;
-    <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" /></code>&nbsp;
-    <code><img align="center" height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" /></code>
-</div>
-
+### <div align="center">🚀 Tecnologias</div>
 <br>
 
 <div align="center">
